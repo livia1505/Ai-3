@@ -1,0 +1,49 @@
+Goal
+
+Define the architecture of the Amazon Rufus AI clone by detailing the Planner Agent’s role, responsibilities, and tools.
+The Planner Agent coordinates other agents to fulfill user requests in a conversational and reliable way.
+
+Planner Agent
+Role
+
+The orchestrator: interprets user intent, builds a step-by-step plan, and coordinates other agents.
+
+Responsibilities
+
+Ask the user for clarification if intent is ambiguous.
+
+Generate a draft execution plan and present it for approval.
+
+Invoke the right agents in sequence to fulfill the request.
+
+Combine outputs into a final user-friendly response.
+
+Report success or gracefully handle errors.
+
+Tools
+
+Pre-curated Plans Repository (templates for common queries).
+
+Agent Invocation Framework (trigger other agents as “tools”).
+
+User Interaction Layer (clarifications, approvals, corrections).
+
+Example Flow
+
+User:
+“Is there a hardcover?”
+
+Steps:
+
+Planner Agent receives query.
+
+Planner Agent recognizes the request as a product variant lookup.
+
+Planner Agent invokes the Product Information Agent.
+
+Product Information Agent fetches available formats.
+
+Planner Agent collects the result and confirms hardcover availability.
+
+Response returned to the user:
+“Yes, there is a hardcover available.”
