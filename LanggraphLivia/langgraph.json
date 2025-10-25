@@ -1,8 +1,7 @@
 {
-  "dockerfile_lines": [],
   "graphs": {
-    "manual": "./launch_credly_langgraph.py:graph",
-    "react": "./launch_credly_langgraph.py:graph"
+    "manual": "./credly_fetch.py:graph",
+    "react": "./credly_fetch.py:graph"
   },
   "env": "./.env",
   "python_version": "3.11",
