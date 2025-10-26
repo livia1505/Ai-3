@@ -95,5 +95,7 @@ Then run:  langgraph dev
 
 and you’ll see your scraper graph in the LangGraph Playground UI.
 
-![eg picture]()
+![eg picture](1screenshot.png)
+![eg picture](2screenshot.png)
+
 
