@@ -95,9 +95,16 @@ Then run:  langgraph dev
 
 and you’ll see your scraper graph in the LangGraph Playground UI.
 
+**| Cert | Point |**
+
+- Any Professional or Specialty | 10 |
+- Any associate or Hashicorp | 5 |
+- Anything else | 2.5 |
+
 ![eg picture](1screenshot.png)
 ![eg picture](2screenshot.png)
 ![eg picture](3screenshot.png)
+
 
 
 
